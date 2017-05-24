@@ -56,7 +56,7 @@
     "lint": "standard",
     "test": "echo 'no tests!'",
     "test:watch": "nodemon --watch lib --watch test --watch index.js --exec 'npm test'",
-    "start": "budo index.js:site/js/function-plot.js -- --standalone functionPlot",
+    "start": "budo index.js:site/js/function-plot.js --live -- --standalone functionPlot",
     "fetch": "curl -o site/partials/brcdn-module.html -L https://www.brcdn.org/?module=function-plot&version=latest",
     "html": "node site.js",
     "pre_publish": "npm run lint",
