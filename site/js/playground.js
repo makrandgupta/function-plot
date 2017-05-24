@@ -43,7 +43,13 @@ function makeSettings(cursor) {
   target: '#playground',
   width: 300,
   height: 180,
-  ticks: 4,
+  xTickValues: [1, 2, 3, 4],
+  yTickValues: [-1, -2, -3, 4],
+  // innerTickSize: 5,
+  // outerTickSize: 10,
+  // ticks: 4,
+
+  grid: true,
   tip: {
   	xLine: true,
   	yLine: true,
