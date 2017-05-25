@@ -41,20 +41,10 @@ document.addEventListener('keydown', function(event) {
 function makeSettings(cursor) {
 	return {
   target: '#playground',
-  width: 400,
-  height: 200,
-  xAxis: {
-  	label: 'test'
-  },
-  xTicks: {
-  	values: [1, 2, 3, 4],
-  	innerSize: 5,
-  	outerSize: 10,
-  },
-  xTickValues: null,
+  width: 300,
+  height: 180,
+  xTickValues: [1, 2, 3, 4],
   yTickValues: [-1, -2, -3, 4],
-  yInnerTickSize: 5,
-  yOuterTickSize: 10,
   // ticks: 4,
 
   grid: true,
