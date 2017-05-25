@@ -46,10 +46,13 @@ function makeSettings(cursor) {
   xAxis: {
   	label: 'test'
   },
-  xTickValues: [1, 2, 3, 4],
+  xTicks: {
+  	values: [1, 2, 3, 4],
+  	innerSize: 5,
+  	outerSize: 10,
+  },
+  xTickValues: null,
   yTickValues: [-1, -2, -3, 4],
-  xInnerTickSize: 5,
-  xOuterTickSize: 10,
   yInnerTickSize: 5,
   yOuterTickSize: 10,
   // ticks: 4,
